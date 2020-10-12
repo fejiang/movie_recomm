@@ -28,5 +28,4 @@ public class Application extends Controller {
         renderJSON(result.toString());
     }
 
-    //TODO: microservices
 }

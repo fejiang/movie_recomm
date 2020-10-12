@@ -15,7 +15,7 @@ public class MovieRecomm {
      * Get all the recommended movie entries for the user. 
      * 
      * @param userId
-     * @return 
+     * @return the list of the recommended movie entries
      */
     public static List<Movie> getRecommMovieForUser(Integer userId) {
         List<Movie> recomMovieList = new ArrayList<>();
